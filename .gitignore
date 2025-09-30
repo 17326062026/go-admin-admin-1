@@ -1,0 +1,50 @@
+# =============== Go 专用 ===============
+# 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+
+# 依赖&构建缓存
+/vendor/
+/bin/
+/dist/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 环境文件（含密钥、端口、数据库地址等）
+.env
+.env.*
+!.env.example
+
+# 日志与临时文件
+*.log
+*.tmp
+*.temp
+*.pid
+
+# =============== 业务扩展 ===============
+# 上传/静态资源（若放在仓库里可注释掉）
+/public/uploads/
+/static/tmp/
+
+# 私有证书、私钥
+*.pem
+*.key
+
+# 忽略当前目录及所有子目录中的 node_modules 文件夹
+node_modules/
+
+**/node_modules/
