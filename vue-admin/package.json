@@ -1,0 +1,42 @@
+{
+  "name": "vue3-admin-dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "buildtsc": "vue-tsc -b && vite build"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@vueuse/core": "^13.1.0",
+    "@wangeditor/editor": "^5.1.14",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "axios": "^1.6.7",
+    "countup.js": "^2.8.0",
+    "d3": "^7.9.0",
+    "dayjs": "^1.11.13",
+    "echarts": "^5.5.0",
+    "element-plus": "^2.5.6",
+    "js-cookie": "^3.0.5",
+    "path-browserify": "^1.0.1",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persist": "^1.0.0",
+    "vue": "^3.4.38",
+    "vue-echarts": "^6.6.8",
+    "vue-router": "^4.2.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20.11.24",
+    "@types/path-browserify": "^1.0.2",
+    "@vitejs/plugin-vue": "^5.1.3",
+    "sass": "^1.71.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2",
+    "vue-tsc": "^2.1.4"
+  }
+}

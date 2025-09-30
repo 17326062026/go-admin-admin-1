@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": false,//不检查未使用的变量
+    "noUnusedParameters": false,//不检查未使用的参数
+    "noEmitOnError": false, // 这会让编译继续即使有错误
+    "skipLibCheck": true // 跳过所有声明文件的类型检查，这对于大型项目很有用
+  },
+  "include": ["vite.config.ts"]
+}
